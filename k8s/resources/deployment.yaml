@@ -18,7 +18,6 @@ spec:
       containers:
         - name: backend
           # Replace with your docker registry info
-	
           image: pengbai/docker-supermario:latest
           ports:
             - name: http
